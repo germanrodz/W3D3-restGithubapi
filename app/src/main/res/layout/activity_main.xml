@@ -8,12 +8,35 @@
     android:layout_height="wrap_content"
     tools:context="com.blovvme.w3d3restfulandrecyclerview.MainActivity">
 
+    <TextView
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="default"
+        android:id="@+id/tvLogin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="default"
+        android:id="@+id/tvId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="default"
+        android:id="@+id/tvHtml_Url"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
     <Button
-        android:id="@+id/btnHttpCall"
-        android:onClick="onHttpCall"
-        android:text="Show on Log"
+        android:onClick="onClick"
+        android:text="Press to see Repos"
+        android:id="@+id/btnRepos"
         android:layout_weight="1"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
+
 
 </LinearLayout>
